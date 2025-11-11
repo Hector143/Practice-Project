@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first website</title>
+</head>
+<body>
+    <h1>This is an h1 heading</h1>
+    <h2>This is an h2 heading</h2>
+    <h3>This is an h3 heading</h3>
+    <h4>This is an h4 heading</h4>
+    <h5>This is an h5 heading</h5>
+    <br>
+
+    <h1> This is a cute dog</h1>
+    <a href="https://en.wikipedia.org/wiki/Dog">
+    <img src="Images/dog.jpeg" alt="This is a picture of a dog" height="200">
+    </a>
+
+    <h3> Woof Woof</h3>
+    <img src="Images/moving.gif" alt="Smiling dog GIF"
+    height="200">
+    <hr>
+    <br>
+    <!-- <pre>
+
+    </pre> -->
+    <!-- <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus animi qui non vel eaque dignissimos, nemo dolores excepturi, sit doloremque, distinctio itaque asperiores error beatae ratione voluptas quos consectetur explicabo.
+    </p> -->
+
+    <!-- THIS IS A COMMENT -->
+
+    <a href="https://www.google.com/"
+    target="_blank"
+    title="Goes to google">
+    click me
+    </a>
+
+    <br>
+
+    <a href="lyrics.html">
+    song lyrics
+    </a>
+
+    <br>
+    <a href="mailto:test@fake.com">
+        email me
+    </a>
+
+
+    <p>This is normal text</p>
+    <p>This is <b>bold</b> text</p>
+    <p>This is <i>italic</i> text</p>
+    <p>This is <u>underlined</u> text</p>
+    <p>This is <del>deleted</del> text</p>
+    <p>This is <big>big</big> text</p>
+    <p>This is <small>small</small> text</p>
+    <p>This is <sub>subscript</sub> text</p>
+    <p>This is <sup>superscript</sup> text</p>
+    <p>This is <tt>monospaced</tt> text</p>
+    <p>This is <mark>normal</mark> text</p>
+    <p>This is <mark style="background-color: lightgreen;">normal</mark> text</p>
+
+
+    <!-- SPAN & DIV -->
+    <!-- GROUP TOGETHER HTML -->
+    <!-- <span> inline container to group elements for styling -->
+    <!-- <div> block container to group elements for styling purposes -->
+    
+    <h1><span style="background-color: tomato;">This is a span title</span></h1>
+    <h1><div style="background-color: cyan;">This is a span title</div></h1>
+    
+    <p><span style="background-color: tomato;">This is a span sentence.</span></p>
+    <p><div style="background-color: cyan;">This is a div sentence.</div></p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span style="background-color: tomato;">Totam quis repellat mollitia, sit porro et consectetur, nesciunt placeat, error expedita reprehenderit nihil voluptates non similique! Rem omnis libero vitae voluptates? </span></p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <div style="background-color: cyan;">Totam quis repellat mollitia, sit porro et consectetur, nesciunt placeat, error expedita reprehenderit nihil voluptates non similique! Rem omnis libero vitae voluptates? </div></p>
+    
+
+    <!-- Unordered List -->
+    <h4>Groceries</h4>
+    <ul>
+        <li>milks</li>
+        <li>eggs</li>
+        <li>bread</li>
+        <li>biscuits</li>
+        <li>coffee supplies</li>
+        <ul>
+            <li>coffee beans</li>
+            <li>creamer</li>
+            <li>stick original</li>
+            <li>sugar</li>
+        </ul>
+    </ul>
+    <!-- Ordered List -->
+    <h4>To do List</h4>
+    <ol>
+        <li>eat breakfast</li>
+        <li>go to class</li>
+        <li>walk the dog</li>
+        <li>work</li>
+        <li>sleep before 8pm</li>
+    </ol>
+    <!-- Description List -->
+    <h4>Mythical Creatures</h4>
+    <dl style="background-color: lightgreen; border:2px solid">
+        <dt>dragon</dt>
+        <dd>A dragon is a mythical, legendary creature appearing in folklore worldwide, typically depicted as a large, powerful, and sometimes winged reptile.</dd>
+        <dt>pheonix</dt>
+        <dd>(in classical mythology) a unique bird that lived for five or six centuries in the Arabian desert, after this time burning itself on a funeral pyre and rising from the ashes with renewed youth to live through another cycle.</dd>
+        <dt>vampire</dt>
+        <dd>a corpse supposed, in European folklore, to leave its grave at night to drink the blood of the living by biting their necks with long pointed canine teeth.</dd>
+        <dt>werewolf</dt>
+        <dd>(in myth or fiction) a person who changes for periods of time into a wolf, typically when there is a full moon.</dd>
+        <dt>hydra</dt>
+        <dd> a hydra is a monstrous, multi-headed, serpent-like creature, primarily known for its extraordinary ability to regenerate two or more heads for every one that is severed. </dd>
+    </dl>
+
+    <!-- Tables -->
+
+    <h3>Store Hours</h3>
+
+    <table border="1" style="background-color: black;">
+        <tr align="center" style="background-color: peachpuff";>
+            <th width="100">Sunday</th>
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Friday</th>
+            <th width="100">Saturday</th>
+        </tr>
+        <tr align="center" style="background-color: aliceblue";>
+            <td>Closed</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>10-2</td>
+
+        </tr>
+    </table>
+
+
+    <!-- Button -->
+
+    <button onclick="doSomething()" s tyle="font-size:25px; background-color: grey; color: lightblue; border-radius: 5px;"> Click Me</button>
+
+    <p id="greeting">Hello</p>
+
+    <script>
+        function doSomething() {
+            
+            document.getElementById("greeting").innerHTML = "Goodbye";
+        } 
+    </script>
+<!-- 
+    <button style="font-size: 25px; background-color: grey; color: lightblue; border-radius: 5px;"> Click Me</button> -->
+
+    <!-- Forms -->
+
+    <form action="index.php" method="POST" enctype="multipart/form-data">
+
+        <label for="username">username:</label>
+        <input type="text" id="username" placeholder="Spongebob" minlength="6" maxlength="15" required>
+        
+        <label for="password">password:</label>
+        <input type="password" id="password" minlength="6" maxlength="15" required><br>
+        
+        <label for="email">email:</label>
+        <input type="email" id="email" placeholder="SSquarepants@gmail.com"><br>
+
+        <label for="phone">phone #</label>
+        <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+        <label for="bday">birthdate:</label>
+        <input type="date" id="bday"> <br>
+
+        <label for="quantity">quantity:</label>
+        <input type="number" id="quantity" min="0" max="99" value="1"><br>
+
+        <label for="title">title</label>
+
+        <label for="Mr.">Mr.:</label>
+        <input type="radio" id="Mr." value="Mr." name="title">
+        <label for="Ms.">Ms.:</label>
+        <input type="radio" id="Ms." value="Ms." name="title">
+        <label for="PhD.">PhD.:</label>
+        <input type="radio" id="PhD." value="PhD." name="title"><br>
+
+        <label for="payment">payment</label>
+        <select>
+            <option value="visa">visa</option>
+            <option value="mastercard">mastercard</option>
+            <option value="giftcard">giftcard</option>
+
+        </select><br>
+
+        <label for="subscribe">subscribe:</label>
+        <input type="checkbox" id="subscribe"><br>
+
+        <label for="comment">comment:</label>
+        <textarea id="comment" rows="3" cols="25"></textarea><br>
+
+        <label for="file">file:</label>
+        <input type="file" id="file" accept="image/png, image/jpeg"><br>
+
+        <input type="reset"><br>
+        <input type="submit">
+
+    </form>
+
+    
+</body>
+</html>

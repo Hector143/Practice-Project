@@ -1,0 +1,60 @@
+/* External CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-container {
+    text-align: center;
+    background-color: skyblue;
+}
+
+ul {
+    text-align: left;
+    background-color: rgb(202, 202, 202);
+}
+
+.hero-section {
+    background-color: rgb(255, 255, 255);
+    height: 1000px;
+}
+
+#main-sec {
+    text-align: left;
+}
+
+/* #main-sec2 {
+    text-align: center;
+} */
+
+#main-sec2 {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.button-signUp {
+        background-color: rgb(255, 255, 255);
+        color: white;
+        padding: 10px 30px;
+        font-size: 24px;
+        margin-bottom: 30px;
+        border:-1px solid black;
+        cursor: pointer;
+        transition: 0.15s;
+        width: 200px;
+}
+
+#image {
+    scroll-margin-block: 400px;
+    
+   
+    
+}
+
+#other-section {
+    background-color: rgb(110, 110, 110);
+    height: 1000px;
+}
